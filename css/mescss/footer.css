@@ -1,0 +1,35 @@
+footer {
+    color: white;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: #0E2532;
+}
+
+footer img {
+    width: 27px ;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+footer a {
+    color: #65BCBE;
+}
+
+footer p:first-of-type {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer p:nth-of-type(2n) {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer p:last-of-type {
+    font-size: x-small;
+}
