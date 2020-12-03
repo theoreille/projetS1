@@ -16,29 +16,49 @@ p {
     margin: 20px;
 }
 
-.extrait {
-    width: 100%;
-    height: 220px;
-    margin-top: 15px;
-}
-
-.affiche {
-    width: 100%;
-    height: 520px;
-    margin-top: 15px;
-}
-
 .légende1,
 .légende2 {
     font-style: italic;
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
+    font-size: small;
 }
 
+.contenu img {
+    width: 100%;
 
+}
+
+.chapeau p {
+    font-style: italic;
+    font-size: small;
+}
+
+h3 {
+    font-family: Play;
+    margin: 20px;
+}
+
+/*Article film*/
+
+.extrait {
+    height: 220px;
+}
+
+.affiche {
+    height: 520px;
+}
 
 .infos\+ {
     text-align: center;
     font-style: italic;
+}
+
+/*Article pb*/
+
+
+.ville {
+    position: absolute;
+    top: 3312px;
 }
