@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/accueil.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/logo.css">
+    <script src="https://kit.fontawesome.com/a170bba251.js" crossorigin="anonymous"></script>
     <title>Accueil</title>
 </head>
+
 <body>
 <header>
-    <script src="https://kit.fontawesome.com/a170bba251.js" crossorigin="anonymous"></script>
 
-    <img src="img/Images%20MENU/Logo%20PS1.png" alt="">
+    <div class="titre"><img src="img/Image%20accueil/DPA%20(Projet%20S1).png" alt=""></div>
 
-    <img src="img/Image%20accueil/DPA%20(Projet%20S1).png" alt="" height="100" width="100">
-    <img src="img/Image%20accueil/fond%20page%20d'accueil.jpg" alt="">
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">Une pollution qui se distingue</a></li>
+            <li><a href="">Une pollution grandissante...</a></li>
+            <li><a href="">Des solutions malgré tout !</a></li>
+            <li><a href="">Mieux comprendre la pollution numérique pour mieux la réduire.</a></li>
+            <li><a href="">À propos / Contact</a></li>
+            <li><a href="">Autres projets</a></li>
+        </ul>
+    </nav>
+
+    <div class="logo"> <img src="img/Logo%20PS1.png" alt=""></div>
+    <div class="slogan"> <p>Naviguez avec la green attitude !</p></div>
 </header>
 
 
-<div class="centre page acc">
-    <img src="img/Image%20accueil/Dégradé%20+%20image%20film.png" alt="">
-    <img src="img/Image%20accueil/Image%20+%20dégradé%20pb.png" alt="">
-    <img src="img/Image%20accueil/Image%20+%20dégradé%20sol.png" alt="">
-    <div class="contenu txt page acc">
+
+<div class="centre">
+    <div class="contenu">
         <h3> Une pollution qui se distingue facilement </h3>
-            <p> Les intentions du réalisateurs, le tournage, le synopsis et même une pollution visible tout au long du film : découvrez Unfriended </p>
+            <div class="fond1"><p> Les intentions du réalisateurs, le tournage, le synopsis et même une pollution visible tout au long du film : découvrez Unfriended </p></div>
+        <button class="bouton1"><a href="Accéder à l'article">Accéder à l'article</a></button>
+
         <h3> Une pollution grandissante... </h3>
-            <p>Découvrez à travers cet article une pollution méconnue par un grand nombre de personnes et qui pose problème dans nos sociétés actuelles…</p>
+            <div class="fond2"><p>Découvrez à travers cet article une pollution méconnue par un grand nombre de personnes et qui pose problème dans nos sociétés actuelles…</p></div>
+        <button class="bouton2"><a href="Accéder à l'article">Accéder à l'article</a></button>
+
         <h3> Des solutions malgré tout ! </h3>
-            <p>Une pollution grandissante certes… mais de nombreuses solutions s’offrent à nous afin de la réduire !</p>
-                <div class="bouton article">
-                    <nav>
-                        <ul>
-                        <a href="Accéder à l'article">Accéder à l'article</a>
-                        <a href="Accéder à l'article">Accéder à l'article</a>
-                        <a href="Accéder à l'article">Accéder à l'article</a>
-                        </ul>
-                    </nav>
-            </div>
+            <div class="fond3"><p>Une pollution grandissante certes… mais de nombreuses solutions s’offrent à nous afin de la réduire !</p></div>
+        <button class="bouton3"><a href="Accéder à l'article">Accéder à l'article</a></button>
     </div>
 </div>
 
@@ -42,7 +61,7 @@
 <footer>
     <nav>
         <a href="http://mmimontbeliard.com/">
-            <img src="img/Images%20MENU/MMi%20logo@2x.png" alt="">
+            <img src="img/logo-mmi.png" alt="">
         </a>
 
         <a href="https://www.pinterest.fr/theo07parisien/_saved/">
@@ -61,12 +80,13 @@
             <i class="fab fa-twitter"></i>
         </a>
 
-        <a href="mailto:theo.reille29@icloud.com">theo.reille29@icloud.com</a>
+
     </nav>
 
-    <h4>Théo Reille</h4>
-    <h4>C1</h4>
-    <h5>Projet réalisé dans le cadre du département MMI de Montbéliard</h5>
+    <p>Théo Reille</p>
+    <p>C1</p>
+    <a href="mailto:theo.reille29@icloud.com">theo.reille29@icloud.com</a>
+    <p>Projet réalisé dans le cadre du département MMI de Montbéliard</p>
 
 </footer>
 
