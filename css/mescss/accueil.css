@@ -1,0 +1,99 @@
+html {
+    background-color: #AEBDC1;
+    background-image: url("fond page d'accueil(1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.titre img {
+    width: 277px;
+    height: 186px;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+
+.slogan {
+    font-style: normal;
+    position: absolute;
+    color: greenyellow;
+    top: 175px;
+    left: 50px;
+}
+
+.fond1>p,
+.fond2>p,
+.fond3>p {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.contenu h3 {
+    font-family: Play;
+    font-weight: bold;
+    background-color: #E9F4F7;
+    text-align: center;
+}
+
+.bouton1,
+.bouton2,
+.bouton3 {
+    margin-left: 200px;
+    background-color: #65BCBE;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.bouton1 {
+    margin-top: 20px;
+}
+
+.fond1 {
+    background-image: url("Dégradé + image film copie 2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 178px;
+}
+
+.fond1 p {
+    padding-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.fond2 {
+    background-image: url("Image + texte (prob).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 178px;
+}
+
+.fond2 p {
+    padding-top: 48px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fond3 {
+    background-image: url("Image + texte (solut).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 178px;
+}
+
+
+.fond3 p {
+    padding-top: 72px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
