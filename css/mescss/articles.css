@@ -1,0 +1,44 @@
+html {
+    background-color: #E9F4F7;
+}
+
+
+.titre {
+    font-family: Play;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #A3D7D8;
+}
+
+p {
+    font-weight: normal;
+    font-size: medium;
+    margin: 20px;
+}
+
+.extrait {
+    width: 100%;
+    height: 220px;
+    margin-top: 15px;
+}
+
+.affiche {
+    width: 100%;
+    height: 520px;
+    margin-top: 15px;
+}
+
+.légende1,
+.légende2 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+.infos\+ {
+    text-align: center;
+    font-style: italic;
+}
