@@ -2,12 +2,15 @@ html {
     background-color: #E9F4F7;
 }
 
-
 .titre {
     font-family: Play;
     margin-top: 100px;
     text-align: center;
     background-color: #A3D7D8;
+}
+
+h2 {
+    margin: 0 15px;
 }
 
 p {
@@ -76,4 +79,15 @@ h3 {
 .accFox {
     font-weight: bold;
     text-decoration-line: underline;
+}
+
+/*Article scient*/
+
+.en-savoir-plus {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    background-color: #65BCBE;
 }
