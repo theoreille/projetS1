@@ -45,6 +45,8 @@ h3 {
     margin: 20px;
 }
 
+
+
 /*Article film*/
 
 .extrait {
@@ -81,6 +83,22 @@ h3 {
     text-decoration-line: underline;
 }
 
+.itw {
+    background-color: darkcyan;
+    padding: 20px 0;
+}
+
+.itw h2 {
+    margin: 0 20px;
+    font-style: italic;
+    font-family: Play;
+    border-bottom: solid black 1px;
+}
+
+.itw video {
+    margin-top: 15px;
+}
+
 /*Article scient*/
 
 .en-savoir-plus {
@@ -90,4 +108,31 @@ h3 {
     margin-left: 130px;
     margin-bottom: 20px;
     background-color: #65BCBE;
+}
+
+.complement {
+    background-color: darkcyan;
+    padding: 20px 0;
+}
+
+.complement h2 {
+    margin: 15px 20px;
+    font-style: italic;
+    font-family: Play;
+    border-bottom: solid black 1px;
+}
+
+.complement a {
+    text-decoration: underline;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.citation p {
+    font-style: italic;
+}
+
+.citation figcaption, cite {
+    margin-right: 20px;
+    margin-left: 20px;
 }

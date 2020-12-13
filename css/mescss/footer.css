@@ -1,11 +1,6 @@
 footer {
     color: white;
     text-align: center;
-
-}
-
-
-footer {
     background-color: #0E2532;
 }
 
@@ -32,4 +27,5 @@ footer p:nth-of-type(2n) {
 
 footer p:last-of-type {
     font-size: x-small;
+    margin: 0 10px;
 }
